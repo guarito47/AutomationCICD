@@ -16,6 +16,7 @@ public class ConfirmationPage extends ReusableComponent {
         super(driver);
         this.driver= driver;
         PageFactory.initElements(driver, this);
+        System.out.println("confirmation page objects created");
     }
 
     //we retrieve the h3 web elements that contains
